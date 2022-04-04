@@ -6,3 +6,5 @@
 
 
 
+
+audio: pulseaudio, pavucontrol, xbindkeys <-- for now
