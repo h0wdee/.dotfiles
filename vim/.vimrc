@@ -8,6 +8,11 @@ Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 " Plug 'frazrepo/vim-rainbow'
 Plug 'altercation/vim-colors-solarized'
 Plug 'pulkomandy/c.vim', { 'for' : 'c' }
+" for python
+Plug 'vim-scripts/indentpython.vim', { 'for' : 'py' }
+Plug 'vim-scripts/pep8', { 'for' : 'py' }
+Plug 'vim-python/python-syntax', { 'for' : 'py' }
+let g:python_highlight_all = 1
 
 " for defaults
 " Plug 'liuchengxu/vim-better-default'
@@ -21,7 +26,12 @@ call plug#end()
 let g:rust_clip_command='xclip -selection clipboard'
 let g:rustfmt_autosave=1
 
-syntax enable
+set shiftwidth=4
+set tabstop=4
+set colorcolumn=74
 set background=dark
+syntax enable
+let g:solarized_termcolors=256
 colorscheme solarized
+
 set number
