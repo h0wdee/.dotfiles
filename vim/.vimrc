@@ -6,7 +6,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'rust-lang/rust.vim', { 'for' : 'rust' }
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 " Plug 'frazrepo/vim-rainbow'
-Plug 'altercation/vim-colors-solarized'
+" Plug 'altercation/vim-colors-solarized'
 Plug 'pulkomandy/c.vim', { 'for' : 'c' }
 " for python
 Plug 'vim-scripts/indentpython.vim', { 'for' : 'py' }
@@ -29,9 +29,9 @@ let g:rustfmt_autosave=1
 set shiftwidth=4
 set tabstop=4
 set colorcolumn=74
-set background=dark
+" set background=dark
 syntax enable
-let g:solarized_termcolors=256
-colorscheme solarized
+" let g:solarized_termcolors=256
+" colorscheme solarized
 
 set number
